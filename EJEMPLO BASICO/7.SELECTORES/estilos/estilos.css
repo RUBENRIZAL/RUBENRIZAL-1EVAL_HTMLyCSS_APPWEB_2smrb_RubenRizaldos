@@ -1,0 +1,8 @@
+/*SELECTOR UNIVERSAL*/
+*{
+    background-color: green;
+}
+/*SELECTOR DE ETIQUETA*/
+h1 {
+    background-color: yellow;
+}
