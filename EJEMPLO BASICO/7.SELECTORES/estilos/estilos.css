@@ -2,7 +2,30 @@
 *{
     background-color: green;
 }
-/*SELECTOR DE ETIQUETA*/
-h1 {
+/*SELECTOR DE ETIQUETA o elemento*/
+h1,address {
     background-color: yellow;
+}
+div {
+    border: solid 3px red;
+}
+/*SELECTOR 
+DE
+CLASE*/
+p.parrafoazul {
+    background-color: brown;
+}
+/*SELECTOR DE ID*/
+p#parrafoamarillo {
+    background-color: darksalmon;
+}
+/*SELECTOR
+DESCENDIENTE
+*/
+div p{
+    color: chartreuse;
+}
+/*SELECTORR HIJO*/
+div.div2>p {
+    color: hotpink;
 }
