@@ -1,31 +1,47 @@
 /*SELECTOR UNIVERSAL*/
-*{
-    background-color: green;
+* {
+  background-color: #ced3ce;
+}
+
+body {
+  margin: 0;
+  padding: 0;
 }
 /*SELECTOR DE ETIQUETA o elemento*/
-h1,address {
-    background-color: yellow;
+h1,
+address {
+  background-color: rgb(255, 115, 0);
 }
 div {
-    border: solid 3px red;
+  border: solid 3px rgb(38, 0, 255);
+  border-left: dashed 9px blue;
+  border-right: inset 4px rgb(50, 84, 205);
+  border-radius: 24px;
 }
 /*SELECTOR 
 DE
 CLASE*/
 p.parrafoazul {
-    background-color: brown;
+  background-color: rgb(42, 42, 165);
 }
 /*SELECTOR DE ID*/
 p#parrafoamarillo {
-    background-color: darksalmon;
+  background-color: rgb(192, 48, 48);
 }
 /*SELECTOR
 DESCENDIENTE
 */
-div p{
-    color: chartreuse;
+div p {
+  color: rgb(0, 38, 255);
 }
 /*SELECTORR HIJO*/
-div.div2>p {
-    color: hotpink;
+div.div2 > p {
+  color: rgb(206, 30, 30);
+}
+div.div3 {
+    
+    border-image-slice: 11;
+  border-width: 10px;
+  border-image-repeat: round;
+  border-image-source: url("../img/paYnEE8hcrP96neHRNofhQ_48x48.png");
 }
