@@ -10,12 +10,44 @@
       ul {
         list-style-type: circle;
       }
+      ul.menu{
+        list-style-type:none;
+      }
+      li.submenu{
+        border: black 5px double;
+        margin-right: 3px;
+        text-align: center;
+        padding: 30px;
+        width: 200px;
+        font-size: 30px;
+        color: white;
+        background-color: red;
+        float: left;
+      }
+      li.submenu:hover{
+        background-color: black;
+        color: chartreuse;
+        font-style: oblique;
+        text-align: center;
+      }
     </style>
     <title>LIstas</title>
   </head>
   <body>
+    
+    <h3>MENU HORIZONTAL CON LISTAS</h3>
+    <ul class="menu">
+      <li class="submenu">Futbol</li>
+      <li class="submenu">Baloncesto</li>
+      <li class="submenu">Motor</li>
+      <li class="submenu">Polideportivo</li>
+      <li class="submenu">Coches</li>
+    </ul>
+   
+   <br><br><br>
+   <br><br><br>
     <h2 id="zonalistasordenadas">Liastas ordenadas</h2>
-    <ol>
+      <ol>
       <li>FC Barcelona</li>
       <li>Real Madrid</li>
       <li>Villareal</li>
@@ -162,6 +194,6 @@
           <li>smr2º</li>
         </ul>
       </li>
-    </ul>
-  </body>
-</html>
+    </ul>     
+    </body>
+    </html>
