@@ -1,28 +1,39 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <style>
-        form.f1{
-            margin-inline-start: 40%;
-        }
-
+      form.f1 {
+        margin-inline-start: 20%;
+      }
     </style>
     <title>*FORMULARIOS</title>
-</head>
-<body>
+  </head>
+  <body>
     <!--formulario 1-->
-   <h1 style="text-decoration: underline;">FORMULARIOS</h1>
+    <h1 style="text-decoration: underline">FORMULARIOS</h1>
     <p>1. Implementa el suguiente formulario HTML</p>
-    <br>
+    <br />
     <form class="f1">
-        <h2>Formulario de encuesta</h2>
-        <label><p>Nombre <input type="text"name="" id=""></p></label>
-        <label><p>¿Cual te parece el mejor capitulo? <input type="text"name="" id=""></p></label>
-        <label><p>¿Cual te parece el mejor capitulo? <input type="text"name="" id=""></p></label>
-        <label>¿Que nota le pondras al curso?
-            <select name="" id="">
+      <h2>Formulario de encuesta</h2>
+      <label
+        ><p>Nombre <input type="text" name="" id="" /></p
+      ></label>
+      <label
+        ><p>
+          ¿Cual te parece el mejor capitulo?
+          <input type="text" name="" id="" /></p
+      ></label>
+      <label
+        ><p>
+          ¿Cual te parece el mejor capitulo?
+          <input type="text" name="" id="" /></p
+      ></label>
+      <div>
+        <label
+          >¿Que nota le pondras al curso?
+          <select name="" id="">
             <option value="1">1</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -33,17 +44,37 @@
             <option value="8">8</option>
             <option value="9">9</option>
             <option value="10">10</option>
-        </select>
+          </select>
         </label>
-        <textarea name="---COMENTARIOS---" id="" rows="15" cols="15"></textarea>
+      </div>
+      <br />
+      <p>Comentarios:</p>
+      <textarea
+        name="texto"
+        id=""
+        rows="7"
+        cols="20"
+        placeholder="--comentarios--"
+      ></textarea>
     </form>
 
-
-     <!--formulario 2-->
-     <form>
-        <p>2. Implementa el siguiente formulario HTML;</p>    
-    
-        </form>
-
-</body>
+    <!--formulario 2-->
+    <form class="f1">
+      <p>2. Implementa el siguiente formulario HTML;</p>
+      <h2>Formulario de encuesta</h2>
+      <label>
+        <p>Nombre: <input type="text" name="" id="" /> Apellidos: <input type="text" /></p>
+        <p>Salario Bruto: <input type="text" name="" id=""></p>
+        <p>Fecha de Alta: <input type="text" name="" id=""></p>
+        <p>Categoria: <input type="text" name="" id=""></p>
+        <p>Sueldo Neto: <input type="radio" name="boton"> Menos de 1000€ <input type="radio" name="boton" > entre 1001€ y 2000€ <input type="radio" name="boton"> Mas de 2000€</p>
+        <div><label><p>Guia de satisfaccion de la Empresa <select name="" id="">
+        <option value="bajo">bajo</option>
+        <option value="medio">medio</option>
+        <option value="alto">alto</option>
+        </label>
+    </div>
+      </label>
+    </form>
+  </body>
 </html>
