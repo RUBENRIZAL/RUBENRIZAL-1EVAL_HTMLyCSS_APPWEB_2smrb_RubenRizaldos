@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario de Futbol y Datos</title>
+    <style>
+      form.f1 {
+        margin-inline-start: 20px;
+        margin-top: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <form class="f1">
+      <p>
+        <label for="nombre" id="Nombre">Nombre:</label
+        ><input type="text" name="nombre" id="nombre" /><label
+          for="clave"
+          id="clave"
+          >Tu clave:<input type="password" name="clave"
+        /></label>
+      </p>
+      <p>
+        Archivo a enviar:
+        <input type="checkbox" name="archivo" value="1" />HTLM<input
+          type="checkbox"
+          name="archivo"
+          value="2"
+        />MATHS<input type="checkbox" name="archivo" value="3" />AYUDA
+      </p>
+      <p>
+        Tu Edad: <input type="radio" name="edad" id="edad" />Menos de 20
+        <input type="radio" name="edad" id="edad" />Entre 20 y 40
+        <input type="radio" name="edad" id="edad" />Mas de 40
+      </p>
+      <p>Como encontraste esta Pagina: <select name="paginas" id="">
+        <option value="Me la comentaron">Me la comentaron</option>
+        <option value="Internet">Internet</option>
+        <option value="Recomendada por un Amigo">Recomendada por un Amigo</option>
+      </select></p>
+      Tus comentarios:
+      <p><textarea name="" id="" rows="5" cols="10"></textarea></p>
+      <p><input type="submit" value="enviar">   <input type="reset" value="borrar"></p>
+    </form>
+  </body>
+</html>
