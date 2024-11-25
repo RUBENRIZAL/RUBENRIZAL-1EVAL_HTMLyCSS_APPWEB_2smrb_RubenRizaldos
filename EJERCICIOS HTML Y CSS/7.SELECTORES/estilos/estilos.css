@@ -1,47 +1,56 @@
 /*SELECTOR UNIVERSAL*/
 * {
   background-color: #ced3ce;
+  list-style-typ;
 }
-
+li{
+  list-style-type: disc;
+}
 body {
-  margin: 0;
-  padding: 0;
+  margin: 20px;
+  padding: 20px;
 }
 /*SELECTOR DE ETIQUETA o elemento*/
-h1,
+h1 {
+  background-color: rgb(90, 89, 89)
+  ;margin-right: 35%;
+  margin-top: 1%;
+  text-align: center;
+}
 address {
-  background-color: rgb(255, 115, 0);
+  background-color: rgb(167, 166, 166);
+  text-align:right ;
 }
 div {
-  border: solid 3px rgb(38, 0, 255);
-  border-left: dashed 9px blue;
-  border-right: inset 4px rgb(50, 84, 205);
+  border: solid 2px rgb(23, 22, 24);
+  border-left: solid 2px rgb(27, 27, 29);
+  border-right: solid 2px rgb(26, 27, 29);
   border-radius: 24px;
 }
 /*SELECTOR 
 DE
 CLASE*/
+
+
 p.parrafoazul {
-  background-color: rgb(42, 42, 165);
+  background-color: rgb(173, 173, 175);
 }
 /*SELECTOR DE ID*/
 p#parrafoamarillo {
-  background-color: rgb(192, 48, 48);
+  background-color: rgb(151, 148, 148);
 }
 /*SELECTOR
 DESCENDIENTE
 */
 div p {
-  color: rgb(0, 38, 255);
+  color: rgb(9, 9, 10);
 }
 /*SELECTORR HIJO*/
 div.div2 > p {
-  color: rgb(206, 30, 30);
+  color: rgb(14, 1, 1);
 }
 div.div3 {
-    
-    border-image-slice: 11;
-  border-width: 10px;
-  border-image-repeat: round;
-  border-image-source: url("../img/paYnEE8hcrP96neHRNofhQ_48x48.png");
+  border-width: 2px;
+  
+  ;
 }
